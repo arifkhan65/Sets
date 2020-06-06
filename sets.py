@@ -11,4 +11,7 @@ print('b'in s2)
 print('ab'in s2)
 print('ab'in s3)
 print(s2.discard(12))
-print(s1&s2)^s3
+print((s1&s2) ^ s3) # prints the uncommon parts
+s=s1|s2|s3
+print('abc' in s)
+print(s)
